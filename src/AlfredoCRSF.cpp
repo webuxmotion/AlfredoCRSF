@@ -144,9 +144,9 @@ void AlfredoCRSF::packetChannelsPacked(const crsf_header_t *p)
     _channels[2] = ch->ch2;
     _channels[3] = ch->ch3;
     _channels[4] = ch->ch4;
-    _channels[5] = ch->ch5;
-    _channels[6] = ch->ch6;
-    _channels[7] = ch->ch7;
+    _channels[5] = ch->ch4;
+    _channels[6] = ch->ch4;
+    _channels[7] = ch->ch4;
     _channels[8] = ch->ch8;
     _channels[9] = ch->ch9;
     _channels[10] = ch->ch10;
